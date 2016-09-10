@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="EaK-IA-a4Z">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ERT-fI-gON">
+            <objects>
+                <navigationController id="EaK-IA-a4Z" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ane-Ff-Jdm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RYJ-WL-u7I"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="86k-a9-871" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-616" y="261"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +32,83 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VyE-H7-0yH">
+                                <rect key="frame" x="50" y="164" width="500" height="50"/>
+                                <color key="backgroundColor" red="0.5796605603448276" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="McJ-lZ-DEJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="单组瀑布流"/>
+                                <connections>
+                                    <segue destination="FWm-eF-X8B" kind="show" id="7Qw-Qu-bad"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="525-8y-5QH">
+                                <rect key="frame" x="50" y="264" width="500" height="50"/>
+                                <color key="backgroundColor" red="0.5796605603448276" green="0.67292564655172393" blue="0.9181034482758621" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="PBf-Jo-sJb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="多组瀑布流"/>
+                                <connections>
+                                    <segue destination="ed9-fU-san" kind="show" id="qsg-8x-VFJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VyE-H7-0yH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="8qW-3E-mdX"/>
+                            <constraint firstItem="525-8y-5QH" firstAttribute="width" secondItem="VyE-H7-0yH" secondAttribute="width" id="MP2-0T-jl3"/>
+                            <constraint firstItem="525-8y-5QH" firstAttribute="leading" secondItem="VyE-H7-0yH" secondAttribute="leading" id="R8w-w4-Bwa"/>
+                            <constraint firstItem="VyE-H7-0yH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="aT9-8p-NOf"/>
+                            <constraint firstAttribute="trailing" secondItem="VyE-H7-0yH" secondAttribute="trailing" constant="50" id="gJj-SB-KaV"/>
+                            <constraint firstItem="525-8y-5QH" firstAttribute="top" secondItem="VyE-H7-0yH" secondAttribute="bottom" constant="50" id="s1l-RF-bdo"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="uCm-bs-hxf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="6" y="261"/>
+        </scene>
+        <!--Single Goup View Controller-->
+        <scene sceneID="YYC-qY-N8y">
+            <objects>
+                <viewController id="FWm-eF-X8B" customClass="HPSingleGoupViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Heb-bm-Fqa"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ikf-aO-Z25"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hJT-8U-97E">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xQN-EB-yJG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="617" y="69"/>
+        </scene>
+        <!--Double Group View Controller-->
+        <scene sceneID="pGE-q8-mY8">
+            <objects>
+                <viewController id="ed9-fU-san" customClass="HPDoubleGroupViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fQM-Mr-rVb"/>
+                        <viewControllerLayoutGuide type="bottom" id="EdP-hU-8GB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="P1e-YN-YCo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0by-Ux-FJR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="617" y="719"/>
         </scene>
     </scenes>
 </document>

@@ -15,6 +15,13 @@
 		1566E2C11D84609200A28A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1566E2BF1D84609200A28A42 /* LaunchScreen.storyboard */; };
 		1566E2CC1D84609200A28A42 /* HPWaterfallLayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566E2CB1D84609200A28A42 /* HPWaterfallLayoutDemoTests.m */; };
 		1566E2D71D84609200A28A42 /* HPWaterfallLayoutDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566E2D61D84609200A28A42 /* HPWaterfallLayoutDemoUITests.m */; };
+		1566E2E71D8460A800A28A42 /* HPCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566E2E61D8460A800A28A42 /* HPCollectionViewWaterfallLayout.m */; };
+		1566E2EA1D8462AB00A28A42 /* HPSingleGoupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566E2E91D8462AB00A28A42 /* HPSingleGoupViewController.m */; };
+		1566E2ED1D8462C900A28A42 /* HPDoubleGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566E2EC1D8462C900A28A42 /* HPDoubleGroupViewController.m */; };
+		1566E2F11D8463CF00A28A42 /* HPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566E2F01D8463CF00A28A42 /* HPCollectionViewCell.m */; };
+		1566E2F41D8463E300A28A42 /* HPCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566E2F31D8463E300A28A42 /* HPCollectionReusableView.m */; };
+		1566E2FA1D847DD600A28A42 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566E2F71D847DD600A28A42 /* YYFPSLabel.m */; };
+		1566E2FB1D847DD600A28A42 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566E2F91D847DD600A28A42 /* YYWeakProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,20 @@
 		1566E2D21D84609200A28A42 /* HPWaterfallLayoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPWaterfallLayoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1566E2D61D84609200A28A42 /* HPWaterfallLayoutDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPWaterfallLayoutDemoUITests.m; sourceTree = "<group>"; };
 		1566E2D81D84609200A28A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1566E2E51D8460A800A28A42 /* HPCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+		1566E2E61D8460A800A28A42 /* HPCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		1566E2E81D8462AB00A28A42 /* HPSingleGoupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPSingleGoupViewController.h; sourceTree = "<group>"; };
+		1566E2E91D8462AB00A28A42 /* HPSingleGoupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPSingleGoupViewController.m; sourceTree = "<group>"; };
+		1566E2EB1D8462C900A28A42 /* HPDoubleGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPDoubleGroupViewController.h; sourceTree = "<group>"; };
+		1566E2EC1D8462C900A28A42 /* HPDoubleGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPDoubleGroupViewController.m; sourceTree = "<group>"; };
+		1566E2EF1D8463CF00A28A42 /* HPCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCollectionViewCell.h; sourceTree = "<group>"; };
+		1566E2F01D8463CF00A28A42 /* HPCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPCollectionViewCell.m; sourceTree = "<group>"; };
+		1566E2F21D8463E300A28A42 /* HPCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCollectionReusableView.h; sourceTree = "<group>"; };
+		1566E2F31D8463E300A28A42 /* HPCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPCollectionReusableView.m; sourceTree = "<group>"; };
+		1566E2F61D847DD600A28A42 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		1566E2F71D847DD600A28A42 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		1566E2F81D847DD600A28A42 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		1566E2F91D847DD600A28A42 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +122,17 @@
 		1566E2B01D84609200A28A42 /* HPWaterfallLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1566E2F51D847DD600A28A42 /* YYFPSLabel */,
+				1566E2EE1D8463CF00A28A42 /* HPHelperView */,
+				1566E2E41D8460A800A28A42 /* HPCollectionViewWaterfallLayout */,
 				1566E2B41D84609200A28A42 /* AppDelegate.h */,
 				1566E2B51D84609200A28A42 /* AppDelegate.m */,
 				1566E2B71D84609200A28A42 /* ViewController.h */,
 				1566E2B81D84609200A28A42 /* ViewController.m */,
+				1566E2E81D8462AB00A28A42 /* HPSingleGoupViewController.h */,
+				1566E2E91D8462AB00A28A42 /* HPSingleGoupViewController.m */,
+				1566E2EB1D8462C900A28A42 /* HPDoubleGroupViewController.h */,
+				1566E2EC1D8462C900A28A42 /* HPDoubleGroupViewController.m */,
 				1566E2BA1D84609200A28A42 /* Main.storyboard */,
 				1566E2BD1D84609200A28A42 /* Assets.xcassets */,
 				1566E2BF1D84609200A28A42 /* LaunchScreen.storyboard */,
@@ -138,6 +166,37 @@
 				1566E2D81D84609200A28A42 /* Info.plist */,
 			);
 			path = HPWaterfallLayoutDemoUITests;
+			sourceTree = "<group>";
+		};
+		1566E2E41D8460A800A28A42 /* HPCollectionViewWaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				1566E2E51D8460A800A28A42 /* HPCollectionViewWaterfallLayout.h */,
+				1566E2E61D8460A800A28A42 /* HPCollectionViewWaterfallLayout.m */,
+			);
+			path = HPCollectionViewWaterfallLayout;
+			sourceTree = "<group>";
+		};
+		1566E2EE1D8463CF00A28A42 /* HPHelperView */ = {
+			isa = PBXGroup;
+			children = (
+				1566E2EF1D8463CF00A28A42 /* HPCollectionViewCell.h */,
+				1566E2F01D8463CF00A28A42 /* HPCollectionViewCell.m */,
+				1566E2F21D8463E300A28A42 /* HPCollectionReusableView.h */,
+				1566E2F31D8463E300A28A42 /* HPCollectionReusableView.m */,
+			);
+			path = HPHelperView;
+			sourceTree = "<group>";
+		};
+		1566E2F51D847DD600A28A42 /* YYFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				1566E2F61D847DD600A28A42 /* YYFPSLabel.h */,
+				1566E2F71D847DD600A28A42 /* YYFPSLabel.m */,
+				1566E2F81D847DD600A28A42 /* YYWeakProxy.h */,
+				1566E2F91D847DD600A28A42 /* YYWeakProxy.m */,
+			);
+			path = YYFPSLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +329,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1566E2FA1D847DD600A28A42 /* YYFPSLabel.m in Sources */,
 				1566E2B91D84609200A28A42 /* ViewController.m in Sources */,
+				1566E2E71D8460A800A28A42 /* HPCollectionViewWaterfallLayout.m in Sources */,
 				1566E2B61D84609200A28A42 /* AppDelegate.m in Sources */,
+				1566E2FB1D847DD600A28A42 /* YYWeakProxy.m in Sources */,
+				1566E2EA1D8462AB00A28A42 /* HPSingleGoupViewController.m in Sources */,
 				1566E2B31D84609200A28A42 /* main.m in Sources */,
+				1566E2F11D8463CF00A28A42 /* HPCollectionViewCell.m in Sources */,
+				1566E2ED1D8462C900A28A42 /* HPDoubleGroupViewController.m in Sources */,
+				1566E2F41D8463E300A28A42 /* HPCollectionReusableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
