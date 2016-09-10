@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1566E2B31D84609200A28A42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566E2B21D84609200A28A42 /* main.m */; };
+		1566E2B61D84609200A28A42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566E2B51D84609200A28A42 /* AppDelegate.m */; };
+		1566E2B91D84609200A28A42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566E2B81D84609200A28A42 /* ViewController.m */; };
+		1566E2BC1D84609200A28A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1566E2BA1D84609200A28A42 /* Main.storyboard */; };
+		1566E2BE1D84609200A28A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1566E2BD1D84609200A28A42 /* Assets.xcassets */; };
+		1566E2C11D84609200A28A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1566E2BF1D84609200A28A42 /* LaunchScreen.storyboard */; };
+		1566E2CC1D84609200A28A42 /* HPWaterfallLayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566E2CB1D84609200A28A42 /* HPWaterfallLayoutDemoTests.m */; };
+		1566E2D71D84609200A28A42 /* HPWaterfallLayoutDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566E2D61D84609200A28A42 /* HPWaterfallLayoutDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1566E2C81D84609200A28A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1566E2A61D84609200A28A42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1566E2AD1D84609200A28A42;
+			remoteInfo = HPWaterfallLayoutDemo;
+		};
+		1566E2D31D84609200A28A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1566E2A61D84609200A28A42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1566E2AD1D84609200A28A42;
+			remoteInfo = HPWaterfallLayoutDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1566E2AE1D84609200A28A42 /* HPWaterfallLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPWaterfallLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1566E2B21D84609200A28A42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1566E2B41D84609200A28A42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1566E2B51D84609200A28A42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1566E2B71D84609200A28A42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1566E2B81D84609200A28A42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1566E2BB1D84609200A28A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1566E2BD1D84609200A28A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1566E2C01D84609200A28A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1566E2C21D84609200A28A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1566E2C71D84609200A28A42 /* HPWaterfallLayoutDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPWaterfallLayoutDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1566E2CB1D84609200A28A42 /* HPWaterfallLayoutDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPWaterfallLayoutDemoTests.m; sourceTree = "<group>"; };
+		1566E2CD1D84609200A28A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1566E2D21D84609200A28A42 /* HPWaterfallLayoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPWaterfallLayoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1566E2D61D84609200A28A42 /* HPWaterfallLayoutDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPWaterfallLayoutDemoUITests.m; sourceTree = "<group>"; };
+		1566E2D81D84609200A28A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1566E2AB1D84609200A28A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1566E2C41D84609200A28A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1566E2CF1D84609200A28A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1566E2A51D84609200A28A42 = {
+			isa = PBXGroup;
+			children = (
+				1566E2B01D84609200A28A42 /* HPWaterfallLayoutDemo */,
+				1566E2CA1D84609200A28A42 /* HPWaterfallLayoutDemoTests */,
+				1566E2D51D84609200A28A42 /* HPWaterfallLayoutDemoUITests */,
+				1566E2AF1D84609200A28A42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1566E2AF1D84609200A28A42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1566E2AE1D84609200A28A42 /* HPWaterfallLayoutDemo.app */,
+				1566E2C71D84609200A28A42 /* HPWaterfallLayoutDemoTests.xctest */,
+				1566E2D21D84609200A28A42 /* HPWaterfallLayoutDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1566E2B01D84609200A28A42 /* HPWaterfallLayoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1566E2B41D84609200A28A42 /* AppDelegate.h */,
+				1566E2B51D84609200A28A42 /* AppDelegate.m */,
+				1566E2B71D84609200A28A42 /* ViewController.h */,
+				1566E2B81D84609200A28A42 /* ViewController.m */,
+				1566E2BA1D84609200A28A42 /* Main.storyboard */,
+				1566E2BD1D84609200A28A42 /* Assets.xcassets */,
+				1566E2BF1D84609200A28A42 /* LaunchScreen.storyboard */,
+				1566E2C21D84609200A28A42 /* Info.plist */,
+				1566E2B11D84609200A28A42 /* Supporting Files */,
+			);
+			path = HPWaterfallLayoutDemo;
+			sourceTree = "<group>";
+		};
+		1566E2B11D84609200A28A42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1566E2B21D84609200A28A42 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1566E2CA1D84609200A28A42 /* HPWaterfallLayoutDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1566E2CB1D84609200A28A42 /* HPWaterfallLayoutDemoTests.m */,
+				1566E2CD1D84609200A28A42 /* Info.plist */,
+			);
+			path = HPWaterfallLayoutDemoTests;
+			sourceTree = "<group>";
+		};
+		1566E2D51D84609200A28A42 /* HPWaterfallLayoutDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1566E2D61D84609200A28A42 /* HPWaterfallLayoutDemoUITests.m */,
+				1566E2D81D84609200A28A42 /* Info.plist */,
+			);
+			path = HPWaterfallLayoutDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1566E2AD1D84609200A28A42 /* HPWaterfallLayoutDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1566E2DB1D84609200A28A42 /* Build configuration list for PBXNativeTarget "HPWaterfallLayoutDemo" */;
+			buildPhases = (
+				1566E2AA1D84609200A28A42 /* Sources */,
+				1566E2AB1D84609200A28A42 /* Frameworks */,
+				1566E2AC1D84609200A28A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPWaterfallLayoutDemo;
+			productName = HPWaterfallLayoutDemo;
+			productReference = 1566E2AE1D84609200A28A42 /* HPWaterfallLayoutDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1566E2C61D84609200A28A42 /* HPWaterfallLayoutDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1566E2DE1D84609200A28A42 /* Build configuration list for PBXNativeTarget "HPWaterfallLayoutDemoTests" */;
+			buildPhases = (
+				1566E2C31D84609200A28A42 /* Sources */,
+				1566E2C41D84609200A28A42 /* Frameworks */,
+				1566E2C51D84609200A28A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1566E2C91D84609200A28A42 /* PBXTargetDependency */,
+			);
+			name = HPWaterfallLayoutDemoTests;
+			productName = HPWaterfallLayoutDemoTests;
+			productReference = 1566E2C71D84609200A28A42 /* HPWaterfallLayoutDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1566E2D11D84609200A28A42 /* HPWaterfallLayoutDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1566E2E11D84609200A28A42 /* Build configuration list for PBXNativeTarget "HPWaterfallLayoutDemoUITests" */;
+			buildPhases = (
+				1566E2CE1D84609200A28A42 /* Sources */,
+				1566E2CF1D84609200A28A42 /* Frameworks */,
+				1566E2D01D84609200A28A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1566E2D41D84609200A28A42 /* PBXTargetDependency */,
+			);
+			name = HPWaterfallLayoutDemoUITests;
+			productName = HPWaterfallLayoutDemoUITests;
+			productReference = 1566E2D21D84609200A28A42 /* HPWaterfallLayoutDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1566E2A61D84609200A28A42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Leon;
+				TargetAttributes = {
+					1566E2AD1D84609200A28A42 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1566E2C61D84609200A28A42 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1566E2AD1D84609200A28A42;
+					};
+					1566E2D11D84609200A28A42 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1566E2AD1D84609200A28A42;
+					};
+				};
+			};
+			buildConfigurationList = 1566E2A91D84609200A28A42 /* Build configuration list for PBXProject "HPWaterfallLayoutDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1566E2A51D84609200A28A42;
+			productRefGroup = 1566E2AF1D84609200A28A42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1566E2AD1D84609200A28A42 /* HPWaterfallLayoutDemo */,
+				1566E2C61D84609200A28A42 /* HPWaterfallLayoutDemoTests */,
+				1566E2D11D84609200A28A42 /* HPWaterfallLayoutDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1566E2AC1D84609200A28A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1566E2C11D84609200A28A42 /* LaunchScreen.storyboard in Resources */,
+				1566E2BE1D84609200A28A42 /* Assets.xcassets in Resources */,
+				1566E2BC1D84609200A28A42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1566E2C51D84609200A28A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1566E2D01D84609200A28A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1566E2AA1D84609200A28A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1566E2B91D84609200A28A42 /* ViewController.m in Sources */,
+				1566E2B61D84609200A28A42 /* AppDelegate.m in Sources */,
+				1566E2B31D84609200A28A42 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1566E2C31D84609200A28A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1566E2CC1D84609200A28A42 /* HPWaterfallLayoutDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1566E2CE1D84609200A28A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1566E2D71D84609200A28A42 /* HPWaterfallLayoutDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1566E2C91D84609200A28A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1566E2AD1D84609200A28A42 /* HPWaterfallLayoutDemo */;
+			targetProxy = 1566E2C81D84609200A28A42 /* PBXContainerItemProxy */;
+		};
+		1566E2D41D84609200A28A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1566E2AD1D84609200A28A42 /* HPWaterfallLayoutDemo */;
+			targetProxy = 1566E2D31D84609200A28A42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1566E2BA1D84609200A28A42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1566E2BB1D84609200A28A42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1566E2BF1D84609200A28A42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1566E2C01D84609200A28A42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1566E2D91D84609200A28A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1566E2DA1D84609200A28A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1566E2DC1D84609200A28A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HPWaterfallLayoutDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leon.HPWaterfallLayoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1566E2DD1D84609200A28A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HPWaterfallLayoutDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leon.HPWaterfallLayoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1566E2DF1D84609200A28A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HPWaterfallLayoutDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leon.HPWaterfallLayoutDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPWaterfallLayoutDemo.app/HPWaterfallLayoutDemo";
+			};
+			name = Debug;
+		};
+		1566E2E01D84609200A28A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HPWaterfallLayoutDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leon.HPWaterfallLayoutDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPWaterfallLayoutDemo.app/HPWaterfallLayoutDemo";
+			};
+			name = Release;
+		};
+		1566E2E21D84609200A28A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HPWaterfallLayoutDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leon.HPWaterfallLayoutDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HPWaterfallLayoutDemo;
+			};
+			name = Debug;
+		};
+		1566E2E31D84609200A28A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HPWaterfallLayoutDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leon.HPWaterfallLayoutDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HPWaterfallLayoutDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1566E2A91D84609200A28A42 /* Build configuration list for PBXProject "HPWaterfallLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1566E2D91D84609200A28A42 /* Debug */,
+				1566E2DA1D84609200A28A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1566E2DB1D84609200A28A42 /* Build configuration list for PBXNativeTarget "HPWaterfallLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1566E2DC1D84609200A28A42 /* Debug */,
+				1566E2DD1D84609200A28A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1566E2DE1D84609200A28A42 /* Build configuration list for PBXNativeTarget "HPWaterfallLayoutDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1566E2DF1D84609200A28A42 /* Debug */,
+				1566E2E01D84609200A28A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1566E2E11D84609200A28A42 /* Build configuration list for PBXNativeTarget "HPWaterfallLayoutDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1566E2E21D84609200A28A42 /* Debug */,
+				1566E2E31D84609200A28A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1566E2A61D84609200A28A42 /* Project object */;
+}
