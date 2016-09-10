@@ -1,0 +1,5 @@
+# HPWaterfallLayout
+带SectionHeader粘滞功能的CollectionView瀑布流布局
+
+实现一个比较完整的包含SectionHeader粘滞功能的CollectionView瀑布流布局，其用法和UICollectionViewFlowLayout基本一致。
+目前尚有不完善的地方，如有任何问题，请随时跟我联系。
